@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Krona+One&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#navbar{
+ background-color:black;
+ padding:30px 50px;
+ font-family: 'Itim', cursive;
+}
+
+#logo{
+    display:flex;
+    color:white;
+    margin:0 14px;
+    align-items:center;
+    transition:ease-out .5s;
+}
+
+#logo img{
+    height:100px;
+    filter:invert();
+
+}
+
+#logo:hover{
+    color:red
+}
+
+#navbar ul{
+    display:flex;
+    flex-direction: row;
+
+    align-items:center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding:20px 60px;
+    color:white;
+    font-size:2rem;
+    transition: ease-in-out .5s;
+    font-weight: 1000px;
+}
+
+#navbar li a:hover{
+    color:blanchedalmond
+}
+
+#introSection{
+    color:white;
+    font-size:1.5rem;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    height:425px;
+    background: center/ cover no-repeat url("/static/img/bg2.jpg");
+    font-family: 'Krona One', sans-serif;
+}
+
+#introSection div.small{
+    padding-bottom:30px;
+    font-size:1.3rem;
+    
+}
+
+
+#missionSection{
+    height:350px;
+    background-color:rgba(0, 0, 0, 0.911);
+    margin:auto;
+    width:100%;
+    display:block;
+}
+
+#missionSection h2{
+    color:white;
+    font-family:'Krona One', sans-serif;
+    text-align:center;
+    padding: auto;
+    padding-top:23px;
+}
+
+.card{
+    display:inline-block;
+    border:2px solid white;
+    border-radius:10px;
+    width:30%;
+    margin:20px 20px;
+    height:230px;
+    background-color:grey;
+
+}
+
+.card h2{
+    text-align:center;
+    color:white;
+
+}
+
+.card p{
+    margin-top:14px;
+    color:white;
+    font-weight:600px;
+    padding-left:10px;
+    font-size:20px;
+}
+
+#sponsorSection{
+    height:500px;
+    background-color:rgb(24, 24, 31);
+
+}
+
+#sponsorSection h2{
+    color:white;
+    font-family:'Krona One', sans-serif;
+    text-align:center;
+    padding: auto;
+    padding-top:50px;
+    font-size:2rem;
+}
+
+#sponsors{
+    height:191px;
+    max-width:1000px;
+    margin:150px auto;
+}
+
+.spImage{
+    height:80%;
+    margin:20px;
+}
+
+#footer{
+    display:flex;
+    flex-direction:column;
+    height:100px;
+    background-color:black;
+    color:white;
+    font-size:1.5rem;
+    align-items: center;
+    justify-content: center;
+    font-family:'Krona One', sans-serif;
+}
+
+#footer .small h3{
+    font-size:1.3rem;
+}
