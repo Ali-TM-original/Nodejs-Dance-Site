@@ -1,0 +1,46 @@
+doctype html
+html
+    head
+        title This is Title 
+        style
+            include ../static/style.css 
+
+    body
+        nav#navbar.top 
+            ul
+                div#logo
+                    img(src="/static/img/logo.jpg")
+                    | HDA
+                li #[a(href="/") Home] 
+                li #[a(href="/") About] 
+                li #[a(href="/") Services] 
+                li #[a(href="/") Contact Us]
+        section#introSection
+            div Welcome to our Dance Academy
+            div.small Eat Sleep Dance Repeat
+        section#missionSection 
+            h2 OUR Mission
+            div.card
+                h2 Dance Perfection
+                hr
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?
+            div.card
+                h2 Dance With Us
+                hr
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?   
+            div.card
+                h2 Expert Teachers
+                hr
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?                                                   
+        section#sponsorSection 
+            h2 OUR SPONSORS
+            div#sponsors
+                img(src="/static/img/logo1.png" alt="sponsorimg" class="spImage")
+                img(src="/static/img/logo2.png" alt="sponsorimg" class="spImage")
+                img(src="/static/img/logo3.png" alt="sponsorimg" class="spImage")
+                img(src="/static/img/logo4.png" alt="sponsorimg" class="spImage")
+                
+        footer#footer
+            | Our Footer HERE                   
+        script 
+            include ../static/script.js    
